@@ -1,17 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import riot from "../assets/riot.jpeg";
 const projects = [
   {
     title: "Smart Irrigation System",
     description:
       "An IoT-based system that automates plant irrigation using sensor data and MQTT communication. It optimizes water usage with intelligent decision-making and fault-tolerant design.",
     tags: ["IoT", "MQTT", "Embedded", "Automation", "Cloud"],
-    image: riot,
+    image: "../public/projects/riot.jpeg",
     demoUrl: "#",
     githubUrl: "https://github.com/KakashiHatake009/RIoT",
   },
 ];
-
 export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
