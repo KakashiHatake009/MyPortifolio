@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import riot from "../assets/RIOT.JPEG";
+import riot from "../assets/riot.JPEG";
 const projects = [
   {
     title: "Smart Irrigation System",
