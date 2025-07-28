@@ -56,7 +56,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:prashanth.kuntlapalli  @gmail.com"
+                    href="mailto:prashanth.kuntlapalli@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     prashanth.kuntlapalli@gmail.com
@@ -93,9 +93,14 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/prashanthkuntlapalli/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin />
                 </a>
+
                 <a href="#" target="_blank">
                   <Twitter />
                 </a>
@@ -130,7 +135,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Prashanth Kuntlapalli..."
+                  placeholder="Firstname Lastname..."
                 />
               </div>
 
@@ -148,7 +153,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="firstname.lastname@gmail.com"
                 />
               </div>
 

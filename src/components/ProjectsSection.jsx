@@ -1,14 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-
+import riot from "../assets/RIOT.JPEG";
 const projects = [
   {
-    id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Smart Irrigation System",
+    description:
+      "An IoT-based system that automates plant irrigation using sensor data and MQTT communication. It optimizes water usage with intelligent decision-making and fault-tolerant design.",
+    tags: ["IoT", "MQTT", "Embedded", "Automation", "Cloud"],
+    image: riot,
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/KakashiHatake009/RIoT",
   },
 ];
 
@@ -22,8 +22,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          A selection of my recent projects, thoughtfully developed with an
+          emphasis on performance, usability, and security best practices.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

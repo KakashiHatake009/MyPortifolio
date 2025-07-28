@@ -21,15 +21,15 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            A computer science engineer with a passion for building clean,
-            secure, and reliable software. I specialize in web development and
-            software engineering, with a strong focus on security — because
-            great tech shouldn't just work well, it should be safe too. Over the
-            years, I’ve worked on everything from full-stack web apps to
-            security-focused systems, always aiming to write code that’s both
-            efficient and maintainable. Whether I’m debugging, designing, or
-            deep in backend logic, I’m all about solving real problems with
-            smart solutions.
+            I'm a security engineer with a strong background in full-stack
+            development. My focus is on building secure, resilient systems —
+            whether it’s designing robust backend architectures, developing
+            responsive web apps, or monitoring for threats in SOC environments.
+            I bring experience in both offensive and defensive security,
+            ensuring that the software I build is not only functional but
+            hardened against real-world risks. With a deep understanding of how
+            things work under the hood, I aim to create solutions that are
+            clean, efficient, and above all, secure.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

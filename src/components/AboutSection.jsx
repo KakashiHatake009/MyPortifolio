@@ -16,16 +16,30 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I'm a Cybersecurity Engineer and SOC Analyst with over 6 years of
+              experience in defending systems and infrastructure against
+              evolving cyber threats. My expertise includes secure coding
+              practices, SOC operations, threat detection, incident response,
+              and vulnerability management. I work extensively with SIEM
+              platforms such as Splunk and QRadar, as well as EDR/XDR solutions
+              for endpoint visibility and control.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              A key part of my approach involves automation — using tools like
+              Python, PowerShell, and SOAR platforms (e.g., Splunk SOAR, IBM
+              Resilient) to streamline incident response, enrich alerts, and
+              reduce manual workloads. I also have experience building custom
+              scripts to automate log parsing, IOC enrichment, and threat intel
+              integration. My work is grounded in industry best practices and
+              aligned with standards like NIST, ISO 27001, DORA, and CIS,
+              ensuring both compliance and robust defense.
+            </p>
+
+            <p>
+              With a strong balance of technical depth and practical experience,
+              I bring a proactive, automation-driven mindset to every security
+              challenge I take on.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +64,12 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Secure Software Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building robust, scalable web and software applications with
+                    security integrated from the ground up.
                   </p>
                 </div>
               </div>
@@ -64,10 +80,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">SOC Operations</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Monitoring, analyzing, and responding to security events to
+                    protect critical systems and data.
                   </p>
                 </div>
               </div>
@@ -79,10 +95,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Penetration Testing</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Identifying and exploiting vulnerabilities to assess and
+                    strengthen system security.
                   </p>
                 </div>
               </div>
