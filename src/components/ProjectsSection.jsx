@@ -5,7 +5,7 @@ const projects = [
     description:
       "An IoT-based system that automates plant irrigation using sensor data and MQTT communication. It optimizes water usage with intelligent decision-making and fault-tolerant design.",
     tags: ["IoT", "MQTT", "Embedded", "Automation", "Cloud"],
-    image: "../public/projects/riot.jpeg",
+    image: "/projects/riot.jpeg",
     demoUrl: "#",
     githubUrl: "https://github.com/KakashiHatake009/RIoT",
   },
